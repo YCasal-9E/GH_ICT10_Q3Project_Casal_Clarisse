@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Intramurals 25-26</title>
+    <style>
+body {
+    background: linear-gradient(to right, #74a795b5, #367a60);
+    color: white;
+}
+.custom-navbar {
+    background-color: #205041;
+}
+
+.custom-navbar .navbar-brand {
+    color: white;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #eaf5f2;
+}
+.nav-btn {
+    background-color: white;
+    color: #5e8f80;
+    border-radius: 20px;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #5e8f80;
+    color: white;
+}
+.theme-btn {
+    background-color: #205041;
+    color: white;
+    border: none;
+}
+
+.theme-btn:hover {
+    background-color: #4a7266;
+    color: white;
+}
+.footer {
+    background-color: #205041;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.card {
+    border-radius: 15px;
+    color: #365a4e;
+}
+.about{
+    background-color: white;
+    color: #365a4e;
+}
+
+    </style>
+</head>
+
+<body>
+<nav class="navbar custom-navbar navbar-expand-lg px-4">
+    <a class="navbar-brand fw-bold" href="#">Intramurals SY 2025-2026</a>
+
+    <div class="ms-auto">
+        <a href="sign-in.html" class="nav-btn">Sign Up</a>
+        <a href="teams.html" class="nav-btn">Team Checker</a>
+        <a href="players.html" class="nav-btn">Players</a>
+    </div>
+</nav>
+<div class="hero">
+    <h1 class="display-4 fw-bold">INTRAMURALS SY 2025–2026</h1>
+    <p class="lead">One Goal. One Spirit. One Campus.</p>
+    <a href="sign-in.html" class="btn theme-btn mt-3">Join Now</a>
+</div>
+
+<div class="section about text-center">
+    <h2>About Intramurals</h2>
+    <p class="mt-3">
+        The Intramurals is an annual school sports event that promotes teamwork,
+        leadership, sportsmanship, and unity among students through friendly competition.
+    </p>
+</div>
+
+<div class="section text-center">
+    <h2>Sports Events</h2>
+
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Basketball</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Volleyball</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Badminton</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Dodgeball</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Hula Hoop Relay</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Kadang-kadang</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Hilahang Lubid</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card p-3">
+                    <h5>Chess</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    © 2025 Intramurals SY 2025–2026
+</div>
+    <py-script src="main.py"></py-script>
+</body>
